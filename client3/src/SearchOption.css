@@ -1,0 +1,31 @@
+.SearchOption{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.search{
+    font-size: 25px;
+}
+/* input[type="file"]{
+    visibility:hidden;
+} */
+.SearchOption label{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #2c83fe;
+    font-size: 17px;
+    width: 90px;
+    border-radius: 3px;
+}
+.SearchOption label:hover{
+    background: #06497c;
+    transition: .5s;
+}
+@media (max-width : 850px){
+    .SearchOption lable{
+        width: 100%;
+        display: inline-block;
+    }
+}

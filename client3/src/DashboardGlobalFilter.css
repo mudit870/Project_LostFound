@@ -1,0 +1,11 @@
+.searchInDashboard{
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.searchInDashboard input{
+    width: 300px;
+    height: 25px;
+}
