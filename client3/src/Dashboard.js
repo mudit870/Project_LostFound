@@ -5,6 +5,7 @@ import DATA from './Dashboarddata.json'
 import './Dashboard.css'
 import { DashboardGlobalFilter } from './DashboardGlobalFilter'
 import axios from "axios"
+import Navbar from './Navbar'
 function Dashboard(){
 
     const columns = useMemo(() => DashboardColumn,[])
@@ -65,6 +66,7 @@ function Dashboard(){
 
   return (
     <>
+    <Navbar />
         <DashboardGlobalFilter 
             filter={globalFilter} 
             setFilter={setGlobalFilter} 

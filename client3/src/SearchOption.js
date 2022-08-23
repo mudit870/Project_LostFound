@@ -60,7 +60,7 @@ function SearchOption(){
         </div>
         <div className='card'>
           <div className='card-image'>
-            <img src='https://img.freepik.com/premium-vector/face-recognition-great-design-any-purposes-protection-icon-vector-personal-protection_123447-1348.jpg?w=2000' alt='fingerprint image'></img>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjbDIemvGRhKKv5_iU26ZuJAAaKbsO-x_aQ&usqp=CAU' alt='fingerprint image'></img>
           </div>
           <div className='card-content'>
             <div className='card-title'>
@@ -79,7 +79,7 @@ function SearchOption(){
         </div>
         <div className='card'>
           <div className='card-image'>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjbDIemvGRhKKv5_iU26ZuJAAaKbsO-x_aQ&usqp=CAU' alt=''></img>
+            <img src='https://img.freepik.com/premium-vector/face-recognition-great-design-any-purposes-protection-icon-vector-personal-protection_123447-1348.jpg?w=2000' alt=''></img>
           </div>
           <div className='card-content'>
             <div className='card-title'>

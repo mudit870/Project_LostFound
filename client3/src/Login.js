@@ -24,7 +24,7 @@ function Login(){
             <a href="#">Forget Password?</a>
             </div>
             <div className="login">
-                <a href="/orderinfo">
+                <a href="/home">
                     <button className="loginBtn" >
                         Login
                     </button>

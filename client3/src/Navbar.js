@@ -12,11 +12,11 @@ function Navbar(){
             </label>
             <label className='logo'><span>Cy</span>duck</label>
             <ul>
-                <li><a className='active' href='/'>Home</a></li>
-                <li><a href='/'>Dashboard</a></li>
-                <li><a href='/'>Public Corner</a></li>
-                <li><a href='/'>Contact US</a></li>
-                <li><a href='/'>Login</a></li>
+                <li><a className='active' href='/home'>Home</a></li>
+                <li><a href='/dashboard'>Dashboard</a></li>
+                <li><a href='/public'>Public Corner</a></li>
+                <li><a href='/contact'>Contact US</a></li>
+                {/* <li><a href='/'>Login</a></li> */}
             </ul>
         </nav>
     </>
