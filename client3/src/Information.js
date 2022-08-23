@@ -22,7 +22,7 @@ function Information(){
           </form>
         </div>
         <div className='info-description-box'>
-              <label>Description of Report  </label>
+              <label>Description of Report</label>
               <br></br>
               <textarea className='info-description' name="textReport" rows={3} cols={20}></textarea>
         </div>

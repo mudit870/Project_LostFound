@@ -1,8 +1,10 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
+import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar(){
+
   return (
     <>
         <nav>
@@ -12,11 +14,18 @@ function Navbar(){
             </label>
             <label className='logo'><span>Cy</span>duck</label>
             <ul>
-                <li><a className='active' href='/home'>Home</a></li>
-                <li><a href='/dashboard'>Dashboard</a></li>
-                <li><a href='/public'>Public Corner</a></li>
-                <li><a href='/contact'>Contact US</a></li>
-                {/* <li><a href='/'>Login</a></li> */}
+                <li>
+                  <NavLink to="/home" activeclassname='active'>Home</NavLink>
+                </li>
+                <li>
+                  <NavLink  to='/dashboard' activeclassname='active'>Dashboard</NavLink>
+                </li>
+                <li>
+                  <NavLink  to='/public' activeclassname='active'>Public Corner</NavLink>
+                </li>
+                <li>
+                  <NavLink  to='/contact' activeclassname='active'>Contact Us</NavLink>
+                </li>
             </ul>
         </nav>
     </>
